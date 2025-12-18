@@ -1,35 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="site.title">CodeDigger Studio</title>
-    <meta name="description" data-i18n="site.tagline" content="Building powerful, privacy-focused tools for the modern web.">
-    
-    <!-- 样式表 -->
     <link rel="stylesheet" href="assets/css/style.css">
-    
-    <!-- 语言配置 -->
-    <script src="lang/config.js" defer></script>
-    <!-- 国际化核心 -->
     <script src="assets/js/i18n.js" defer></script>
 </head>
 <body>
-    <header>
-        <!-- 语言切换器将由JavaScript动态插入到这里 -->
-        
-        <nav class="nav-container">
-            <div class="nav">
-                <a href="/" class="logo" data-i18n="site.title">CodeDigger Studio</a>
-                <ul class="nav-menu">
-                    <li><a href="/" data-i18n="site.nav.home">Home</a></li>
-                    <li><a href="#products" data-i18n="site.nav.products">Products</a></li>
-                    <li><a href="contact.html" data-i18n="site.nav.contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
+    <!-- 导航栏将通过i18n.js动态生成 -->
+    
     <main>
         <section class="hero">
             <h1 data-i18n="home.hero_title">Professional Browser Extensions</h1>
@@ -80,30 +60,7 @@
             </div>
         </section>
     </main>
-
-    <footer>
-        <div class="footer-content">
-            <div>
-                <h3 data-i18n="site.title">CodeDigger Studio</h3>
-                <p data-i18n="site.tagline">Building powerful tools for the modern web.</p>
-            </div>
-            <div class="footer-links">
-                <h4 data-i18n="site.nav.products">Products</h4>
-                <a href="products/cookie-control-center/" data-i18n="cookie_control_center.title">Cookie Control Center</a>
-            </div>
-            <div class="footer-links">
-                <h4>Legal</h4>
-                <a href="global/privacy.html" data-i18n="site.nav.privacy">Privacy Policy</a>
-                <a href="global/terms.html" data-i18n="site.nav.terms">Terms of Service</a>
-            </div>
-            <div class="footer-links">
-                <h4>Company</h4>
-                <a href="contact.html" data-i18n="site.nav.contact">Contact Us</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p data-i18n="site.footer_copyright">© 2023 CodeDigger Studio. All rights reserved.</p>
-        </div>
-    </footer>
+    
+    <!-- 页脚将通过i18n.js动态生成 -->
 </body>
 </html>
