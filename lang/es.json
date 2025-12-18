@@ -1,0 +1,43 @@
+{
+    "site": {
+        "title": "CodeDigger Studio",
+        "tagline": "Construyendo herramientas poderosas y centradas en la privacidad para la web moderna.",
+        "footer_copyright": "© 2023 CodeDigger Studio. Todos los derechos reservados.",
+        "nav": {
+            "home": "Inicio",
+            "products": "Productos",
+            "pricing": "Precios",
+            "contact": "Contacto"
+        }
+    },
+    "home": {
+        "hero_title": "Extensiones de Navegador Profesionales",
+        "products_title": "Nuestros Productos",
+        "coming_soon": "Más herramientas próximamente",
+        "business_model_title": "Precios Sencillos y Transparentes",
+        "free_tier_title": "Nivel Gratuito Permanente",
+        "free_tier_items": [
+            "Funcionalidad básica para todos los productos",
+            "Límites de uso razonables",
+            "Soporte de la comunidad"
+        ],
+        "premium_tier_title": "Suscripción Premium",
+        "premium_tier_items": [
+            "Desbloquea todas las funciones avanzadas",
+            "Límites más altos y sincronización en la nube",
+            "Soporte prioritario",
+            "Acceso a todos los productos futuros"
+        ],
+        "view_pricing": "Ver Precios"
+    },
+    "buttons": {
+        "learn_more": "Más Información",
+        "back_to_home": "Volver al Inicio",
+        "change_language": "Cambiar Idioma",
+        "close": "Cerrar"
+    },
+    "language_switcher": {
+        "title": "Seleccionar Idioma",
+        "current": "Actual"
+    }
+}
