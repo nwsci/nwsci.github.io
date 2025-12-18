@@ -1,0 +1,127 @@
+{
+    "site": {
+        "title": "CodeDigger Studio",
+        "tagline": "Building powerful, privacy-focused tools for the modern web.",
+        "footer_copyright": "© 2023 CodeDigger Studio. All rights reserved.",
+        "nav": {
+            "home": "Home",
+            "products": "Products",
+            "pricing": "Pricing",
+            "contact": "Contact"
+        }
+    },
+    
+    "home": {
+        "hero_title": "Professional Browser Extensions",
+        "products_title": "Our Products",
+        "coming_soon": "More Tools Coming Soon",
+        "business_model_title": "Simple & Transparent Pricing",
+        "free_tier_title": "Free Forever Tier",
+        "free_tier_items": [
+            "Core functionality for all products",
+            "Reasonable usage limits",
+            "Community support"
+        ],
+        "premium_tier_title": "Premium Subscription",
+        "premium_tier_items": [
+            "Unlock all advanced features",
+            "Higher limits & cloud sync",
+            "Priority support",
+            "Access to all future products"
+        ],
+        "view_pricing": "View Pricing"
+    },
+    
+    "cookie_control_center": {
+        "title": "Cookie Control Center",
+        "subtitle": "The professional-grade cookie management sidebar for developers, testers, and power users.",
+        "get_chrome": "Get for Chrome",
+        "get_edge": "Get for Edge",
+        "view_pricing": "View Pricing",
+        
+        "features_title": "Free vs. Premium Features",
+        "site_limit": "Site Management Limit",
+        "site_limit_desc": "Maximum unique sites for cookie operations",
+        "cloud_sync": "Cloud Backup & Sync",
+        "cloud_sync_desc": "Secure cloud storage and cross-device synchronization",
+        "bulk_ops": "Bulk Operations",
+        "bulk_ops_desc": "Copy All / Clear All cookies for a site",
+        "core_ops": "Core Operations",
+        "core_ops_desc": "Edit, copy single, delete single, filter, import/export",
+        
+        "free_plan": "Free Plan",
+        "pro_plan": "Premium Plan",
+        "up_to_sites": "Up to {count} sites",
+        "enabled": "✅ Enabled",
+        "not_available": "❌ Not available",
+        "available": "✅ Available",
+        
+        "core_features_title": "Core Features",
+        "inspection": "Smart Cookie Inspection",
+        "inspection_desc": "View all cookies for the current site in a clean, sortable table.",
+        "editing": "In-Place Editing",
+        "editing_desc": "Double-click to edit any cookie value directly.",
+        "import_export": "Import & Export",
+        "import_export_desc": "Backup your cookie profiles as JSON files.",
+        "bulk": "Bulk Operations",
+        "bulk_desc": "Premium users get one-click bulk operations.",
+        
+        "use_cases_title": "Who It's For",
+        "developers": "Web Developers",
+        "developers_desc": "Test authentication flows, debug cookie issues.",
+        "testers": "QA Testers",
+        "testers_desc": "Quickly switch between user sessions.",
+        "privacy_users": "Privacy Users",
+        "privacy_users_desc": "Monitor and control what cookies are stored."
+    },
+    
+    "pricing": {
+        "title": "Pricing - Cookie Control Center",
+        "intro": "Choose the plan that fits your needs.",
+        "free": "Free",
+        "free_for": "For casual users and basic cookie management",
+        "forever": "/ forever",
+        "get_free": "Get Free Version",
+        "premium": "Premium",
+        "premium_for": "For developers, testers, and power users",
+        "most_popular": "MOST POPULAR",
+        "month": "/ month",
+        "save_percent": "or ${yearly}/year (save {percent}%)",
+        "subscribe": "Subscribe Now",
+        
+        "features": {
+            "manage_sites": "Manage cookies for up to {count} sites",
+            "edit_cookies": "Edit individual cookies",
+            "copy_delete": "Copy/Delete single cookies",
+            "filtering": "Basic filtering by name",
+            "import_export": "Import/Export cookies (manual)",
+            "bulk_ops": "Bulk operations (Copy/Clear All)",
+            "cloud_backup": "Cloud backup & sync",
+            "priority_support": "Priority support",
+            "everything_free": "Everything in Free, plus:",
+            "advanced_filtering": "Advanced filtering (domain, path, expiration)",
+            "advanced_import": "Advanced import/export options",
+            "early_access": "Early access to new features"
+        },
+        
+        "faq_title": "Frequently Asked Questions",
+        "faq_upgrade": "How do I upgrade to Premium?",
+        "faq_upgrade_answer": "After installing the free extension, click the 'Upgrade' button in the sidebar.",
+        "faq_billing": "Can I switch between monthly and yearly billing?",
+        "faq_billing_answer": "Yes! You can switch your billing cycle at any time.",
+        "faq_limit": "What happens if I reach the limit?",
+        "faq_limit_answer": "You'll see a friendly prompt encouraging you to upgrade."
+    },
+    
+    "buttons": {
+        "learn_more": "Learn More",
+        "back_to_home": "Back to Home",
+        "change_language": "Change Language",
+        "close": "Close"
+    },
+    
+    "language_switcher": {
+        "title": "Select Language",
+        "current": "Current"
+    }
+}
