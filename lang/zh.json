@@ -1,0 +1,127 @@
+{
+    "site": {
+        "title": "CodeDigger Studio",
+        "tagline": "为现代网络构建强大、注重隐私的工具。",
+        "footer_copyright": "© 2023 CodeDigger Studio。保留所有权利。",
+        "nav": {
+            "home": "首页",
+            "products": "产品",
+            "pricing": "定价",
+            "contact": "联系我们"
+        }
+    },
+    
+    "home": {
+        "hero_title": "专业浏览器扩展",
+        "products_title": "我们的产品",
+        "coming_soon": "更多工具即将推出",
+        "business_model_title": "简单透明的定价",
+        "free_tier_title": "永久免费版",
+        "free_tier_items": [
+            "所有产品的核心功能",
+            "合理的使用限制",
+            "社区支持"
+        ],
+        "premium_tier_title": "高级订阅版",
+        "premium_tier_items": [
+            "解锁所有高级功能",
+            "更高的限制和云同步",
+            "优先支持",
+            "访问所有未来产品"
+        ],
+        "view_pricing": "查看定价"
+    },
+    
+    "cookie_control_center": {
+        "title": "Cookie 控制中心",
+        "subtitle": "为开发者、测试人员和高级用户提供的专业级Cookie管理侧边栏。",
+        "get_chrome": "获取 Chrome 版本",
+        "get_edge": "获取 Edge 版本",
+        "view_pricing": "查看定价",
+        
+        "features_title": "免费版 vs 高级版功能",
+        "site_limit": "站点管理限制",
+        "site_limit_desc": "Cookie操作的最大独立站点数",
+        "cloud_sync": "云备份与同步",
+        "cloud_sync_desc": "安全的云存储和跨设备同步",
+        "bulk_ops": "批量操作",
+        "bulk_ops_desc": "一键复制/清空站点所有Cookie",
+        "core_ops": "核心操作",
+        "core_ops_desc": "编辑、复制单个、删除单个、筛选、导入/导出",
+        
+        "free_plan": "免费版",
+        "pro_plan": "高级版",
+        "up_to_sites": "最多 {count} 个站点",
+        "enabled": "✅ 已启用",
+        "not_available": "❌ 不可用",
+        "available": "✅ 可用",
+        
+        "core_features_title": "核心功能",
+        "inspection": "智能Cookie检查",
+        "inspection_desc": "在清晰、可排序的表格中查看当前站点的所有Cookie。",
+        "editing": "就地编辑",
+        "editing_desc": "双击直接编辑任何Cookie值。",
+        "import_export": "导入与导出",
+        "import_export_desc": "将Cookie配置文件备份为JSON文件。",
+        "bulk": "批量操作",
+        "bulk_desc": "高级用户可一键批量操作。",
+        
+        "use_cases_title": "适合人群",
+        "developers": "Web开发者",
+        "developers_desc": "测试认证流程，调试Cookie问题。",
+        "testers": "QA测试员",
+        "testers_desc": "快速在用户会话间切换。",
+        "privacy_users": "隐私用户",
+        "privacy_users_desc": "监控和控制存储的Cookie。"
+    },
+    
+    "pricing": {
+        "title": "定价 - Cookie 控制中心",
+        "intro": "选择适合您需求的方案。",
+        "free": "免费版",
+        "free_for": "适合普通用户和基本Cookie管理",
+        "forever": "/ 永久免费",
+        "get_free": "获取免费版",
+        "premium": "高级版",
+        "premium_for": "适合开发者、测试人员和高级用户",
+        "most_popular": "最受欢迎",
+        "month": "/ 月",
+        "save_percent": "或 ${yearly}/年 (节省 {percent}%)",
+        "subscribe": "立即订阅",
+        
+        "features": {
+            "manage_sites": "最多管理 {count} 个站点的Cookie",
+            "edit_cookies": "编辑单个Cookie",
+            "copy_delete": "复制/删除单个Cookie",
+            "filtering": "按名称基本筛选",
+            "import_export": "导入/导出Cookie（手动）",
+            "bulk_ops": "批量操作（复制/清空所有）",
+            "cloud_backup": "云备份与同步",
+            "priority_support": "优先支持",
+            "everything_free": "包含免费版所有功能，另加：",
+            "advanced_filtering": "高级筛选（域名、路径、有效期）",
+            "advanced_import": "高级导入/导出选项",
+            "early_access": "新功能早期访问"
+        },
+        
+        "faq_title": "常见问题",
+        "faq_upgrade": "如何升级到高级版？",
+        "faq_upgrade_answer": "安装免费扩展后，点击侧边栏中的'升级'按钮。",
+        "faq_billing": "可以在月付和年付之间切换吗？",
+        "faq_billing_answer": "可以！您可以在账户仪表板随时切换计费周期。",
+        "faq_limit": "达到限制会怎样？",
+        "faq_limit_answer": "您会看到友好提示，鼓励您升级。"
+    },
+    
+    "buttons": {
+        "learn_more": "了解更多",
+        "back_to_home": "返回首页",
+        "change_language": "切换语言",
+        "close": "关闭"
+    },
+    
+    "language_switcher": {
+        "title": "选择语言",
+        "current": "当前"
+    }
+}
