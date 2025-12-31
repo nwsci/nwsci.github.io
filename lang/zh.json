@@ -1,94 +1,139 @@
 {
-    "nav.home": "首页",
-    "nav.extensions": "扩展列表",
-    "nav.terms": "服务条款",
-    "nav.privacy": "隐私政策",
-    
-    "hero.title": "增强您的浏览体验",
-    "hero.subtitle": "发现我们强大的浏览器扩展集合，旨在提高生产力、安全性和控制力。",
-    
-    "features.title": "特色扩展",
-    
-    "extensions.cookie.desc": "高级Cookie管理和HTTP请求模拟",
-    "extensions.soon": "更多实用扩展即将推出...",
-    
-    "common.pricing": "查看定价",
-    "common.privacy": "隐私政策",
-    "common.terms": "服务条款",
-    "common.get_started": "免费开始",
-    "common.choose_plan": "选择套餐",
-    "common.coming_soon": "即将推出",
-    "common.yes": "是",
-    "common.no": "否",
-    "common.unlimited": "无限制",
-    
-    "footer.products": "产品",
-    "footer.legal": "法律条款",
-    "footer.refund": "退款政策",
-    "footer.copyright": "© 2024 浏览器工具中心 保留所有权利",
-    
-    "pricing.title": "Cookie控制中心 - 定价",
-    "pricing.subtitle": "选择适合您Cookie管理需求的完美套餐",
-    
-    "tier.free": "免费版",
-    "tier.free.price": "$0",
-    "tier.free.period": "永久免费",
-    "tier.free.feature1": "支持导出为.txt或.csv格式",
-    "tier.free.feature2": "最多管理10个站点",
-    "tier.free.feature3": "基本Cookie操作",
-    
-    "tier.monthly": "月度订阅",
-    "tier.monthly.price": "$1.99",
-    "tier.monthly.period": "每月",
-    "tier.monthly.feature1": "包含所有免费版功能",
-    "tier.monthly.feature2": "支持导入/导出为JSON、SQLite格式",
-    "tier.monthly.feature3": "备份文件密码加密",
-    "tier.monthly.feature4": "模拟HTTP请求",
-    "tier.monthly.feature5": "自定义主题和界面",
-    "tier.monthly.feature6": "自定义键盘快捷键",
-    "tier.monthly.feature7": "去除页面广告",
-    "tier.monthly.feature8": "最多管理300个站点",
-    
-    "tier.yearly": "年度订阅",
-    "tier.yearly.price": "$7.99",
-    "tier.yearly.period": "每年",
-    "tier.yearly.save": "节省66%",
-    "tier.yearly.feature1": "包含所有月度功能",
-    "tier.yearly.feature2": "优先技术支持",
-    
-    "comparison.title": "功能对比",
-    "comparison.feature": "功能",
-    "comparison.free": "免费版",
-    "comparison.premium": "付费版",
-    "comparison.export_format": "导出格式支持",
-    "comparison.export_format.free": ".txt, .csv",
-    "comparison.export_format.premium": ".txt, .csv, JSON, SQLite",
-    "comparison.import_format": "导入格式支持",
-    "comparison.import_format.free": "不支持",
-    "comparison.import_format.premium": "JSON, SQLite",
-    "comparison.encryption": "备份加密",
-    "comparison.http_simulate": "HTTP请求模拟",
-    "comparison.custom_ui": "自定义主题和界面",
-    "comparison.keyboard_shortcuts": "自定义键盘快捷键",
-    "comparison.remove_ads": "去除广告",
-    "comparison.site_limit": "站点管理限制",
-    "comparison.site_limit.free": "10个站点",
-    "comparison.site_limit.premium": "300个站点",
-    
-    "faq.title": "常见问题",
-    "faq.q1": "你们接受哪些支付方式？",
-    "faq.a1": "我们通过Paddle接受所有主要信用卡（Visa、MasterCard、American Express）、PayPal和其他支付方式。",
-    "faq.q2": "我可以在月度和年度套餐之间切换吗？",
-    "faq.a2": "可以，您可以随时升级或降级您的套餐。升级时，您将支付按比例计算的差价。降级时，新套餐将在下一个计费周期生效。",
-    "faq.q3": "付费功能有免费试用吗？",
-    "faq.a3": "有！免费版本包含所有基本功能。您可以使用我们的14天免费试用期尝试付费功能。",
-    "faq.q4": "退款政策是怎样的？",
-    "faq.a4": "我们提供30天退款保证。如果您对付费功能不满意，请联系我们获得全额退款。",
-    "faq.q5": "你们为学生或非营利组织提供折扣吗？",
-    "faq.a5": "是的，我们为学生和注册的非营利组织提供50%的折扣。请提供身份证明联系我们。",
-    
-    "cta.title": "准备好掌控您的Cookies了吗？",
-    "cta.subtitle": "加入数千名通过Cookie控制中心增强浏览体验的用户",
-    "cta.get_started": "免费开始使用",
-    "cta.upgrade": "升级到付费版"
+  "site": {
+    "name": "Cookie Control Center",
+    "tagline": "强大的浏览器Cookie管理工具",
+    "description": "轻松管理、备份和保护您的浏览器Cookie。"
+  },
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "pricing": "定价",
+    "terms": "条款",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "为高级用户打造的浏览器扩展",
+    "subtitle": "使用我们的强大工具提升您的浏览体验",
+    "cta": "查看产品"
+  },
+  "home": {
+    "our_products": "我们的产品",
+    "products_desc": "探索我们的浏览器扩展套件，提升您的生产力和隐私保护。",
+    "learn_more": "了解更多",
+    "get_started": "开始使用"
+  },
+  "pricing": {
+    "title": "定价方案",
+    "subtitle": "选择适合您需求的方案",
+    "monthly": "月付",
+    "yearly": "年付",
+    "yearly_savings": "节省67%",
+    "per_month": "/月",
+    "per_year": "/年",
+    "buy_now": "立即购买",
+    "recommended": "推荐",
+    "features_title": "功能对比",
+    "export_formats": "导出格式",
+    "import_formats": "导入格式",
+    "encrypted_backup": "加密备份",
+    "http_simulation": "HTTP请求模拟",
+    "api_requests": "直接API请求",
+    "custom_themes": "自定义主题",
+    "dark_mode": "暗黑模式",
+    "sidebar_customization": "侧边栏自定义",
+    "keyboard_shortcuts": "键盘快捷键",
+    "ad_free": "去广告体验",
+    "site_management": "站点管理",
+    "free": "免费版",
+    "basic": "基础版",
+    "advanced": "高级版",
+    "all_features": "全部功能",
+    "feature_comparison_table": {
+      "feature": "功能",
+      "free": "免费版",
+      "pro": "专业版",
+      "export_formats_desc": "导出格式",
+      "import_formats_desc": "导入格式",
+      "encrypted_backup_desc": "密码加密备份",
+      "http_simulation_desc": "模拟HTTP请求",
+      "api_requests_desc": "发送带Cookie的API请求",
+      "custom_themes_desc": "自定义主题",
+      "dark_mode_desc": "暗黑模式支持",
+      "sidebar_desc": "自定义侧边栏大小",
+      "shortcuts_desc": "自定义键盘快捷键",
+      "ad_free_desc": "去除页面广告",
+      "site_limit_desc": "最大管理站点数",
+      "txt_csv": ".txt, .csv",
+      "json_sqlite": "JSON, SQLite",
+      "yes": "是",
+      "no": "否",
+      "free_sites": "10个站点",
+      "pro_sites": "300个站点"
+    }
+  },
+  "terms": {
+    "title": "服务条款",
+    "last_updated": "最后更新：2024年12月",
+    "sections": {
+      "acceptance": {
+        "title": "1. 条款接受",
+        "content": "下载、安装或使用Cookie Control Center即表示您同意受本服务条款的约束。如果您不同意这些条款，请不要使用我们的软件。"
+      },
+      "license": {
+        "title": "2. 许可授权",
+        "content": "我们授予您有限的、非排他的、可撤销的许可，允许您根据这些条款将我们的软件用于个人非商业用途。"
+      },
+      "privacy": {
+        "title": "3. 隐私政策",
+        "content": "您的隐私对我们很重要。Cookie Control Center在您的设备上本地处理Cookie数据。我们不会收集、存储或将您的个人信息或Cookie信息传输到我们的服务器。您导出的任何数据都保留在您的设备上，未经您的明确同意不会与第三方共享。"
+      },
+      "data_collection": {
+        "title": "4. 数据收集",
+        "content": "我们不会从用户收集任何个人信息。该扩展完全在本地运行。我们可能会收集匿名使用统计数据来改进我们的产品，但这些数据无法用于识别个人用户。"
+      },
+      "payments": {
+        "title": "5. 支付和订阅",
+        "content": "通过Paddle安全处理您的支付信息。您的支付信息永远不会存储在我们的服务器上。订阅可以随时通过您的Paddle账户仪表板取消。"
+      },
+      "refunds": {
+        "title": "6. 退款政策",
+        "content": "我们为所有付费订阅提供14天退款保证。如果您对购买不满意，请在付款后14天内联系我们申请退款。退款将在5-7个工作日内处理。超过14天的订阅或违反我们服务条款的账户将不予退款。"
+      },
+      "prohibited": {
+        "title": "7. 禁止使用",
+        "content": "您同意不：(a) 反向工程或试图推导我们软件的源代码；(b) 将我们的软件用于任何非法或未经授权的目的；(c) 干扰或扰乱我们软件的运行。"
+      },
+      "disclaimer": {
+        "title": "8. 免责声明",
+        "content": "我们的软件按'原样'提供，不提供任何形式的保证。我们对因使用我们的软件而导致的任何数据丢失、系统损坏或其他问题不承担责任。"
+      },
+      "changes": {
+        "title": "9. 条款变更",
+        "content": "我们保留随时修改这些条款的权利。在我们对软件进行任何更改后继续使用即表示您接受新条款。"
+      },
+      "contact": {
+        "title": "10. 联系我们",
+        "content": "如果您对这些条款有任何疑问，请通过扩展的支持渠道联系我们。"
+      }
+    },
+    "privacy_title": "隐私政策",
+    "refund_title": "退款政策",
+    "back_to_home": "返回首页",
+    "view_pricing": "查看定价"
+  },
+  "footer": {
+    "copyright": "© 2024 Cookie Control Center。保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  },
+  "language": {
+    "switch": "语言",
+    "en": "English",
+    "zh": "中文"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "发生错误",
+    "retry": "重试"
+  }
 }
