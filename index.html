@@ -1,96 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Browser Extensions Collection</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cookie Control Center - Powerful browser extensions for cookie management and privacy protection">
+  <title>Cookie Control Center - Browser Extensions</title>
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <i class="fas fa-puzzle-piece"></i>
-                <h1>Browser Tools Hub</h1>
+  <header class="header">
+    <div class="container">
+      <a href="/" class="logo">
+        <div class="logo-icon">🍪</div>
+        <span data-i18n="site.name">Cookie Control Center</span>
+      </a>
+      
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="/" data-i18n="nav.home">Home</a></li>
+          <li><a href="/products/cookie-control-center/pricing.html" data-i18n="nav.pricing">Pricing</a></li>
+          <li><a href="/products/cookie-control-center/terms.html" data-i18n="nav.terms">Terms</a></li>
+        </ul>
+        
+        <div class="header-actions">
+          <div class="language-switcher">
+            <button class="language-btn">
+              <span data-i18n="language.switch">Language</span>
+              <span class="caret">▼</span>
+            </button>
+            <div class="language-dropdown">
+              <button data-lang="en" class="active">English</button>
+              <button data-lang="zh">中文</button>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html" data-lang="nav.home">Home</a></li>
-                    <li><a href="legal/terms.html" data-lang="nav.terms">Terms</a></li>
-                    <li>
-                        <select id="language-selector" class="lang-switcher">
-                            <option value="en">🌐 English</option>
-                            <option value="zh">🌐 中文</option>
-                        </select>
-                    </li>
-                </ul>
-            </nav>
+          </div>
+          
+          <button class="mobile-menu-btn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
-    </header>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <h2 data-lang="hero.title">Enhance Your Browsing Experience</h2>
-                <p data-lang="hero.subtitle">Discover our collection of powerful browser extensions designed to improve productivity, security, and control.</p>
-            </div>
-        </section>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1 data-i18n="hero.title">Browser Extensions for Power Users</h1>
+        <p data-i18n="hero.subtitle">Enhance your browsing experience with our powerful tools</p>
+        <a href="#products" class="hero-cta" data-i18n="hero.cta">View Products</a>
+      </div>
+    </section>
 
-        <section class="features">
-            <div class="container">
-                <h2 data-lang="features.title">Featured Extensions</h2>
-                <div class="extensions-grid">
-                    <div class="extension-card">
-                        <div class="extension-icon">
-                            <i class="fas fa-cookie-bite"></i>
-                        </div>
-                        <h3>Cookie Control Center</h3>
-                        <p data-lang="extensions.cookie.desc">Advanced cookie management and HTTP request simulation</p>
-                        <div class="extension-links">
-                            <a href="products/cookie-control-center/pricing.html" class="btn" data-lang="common.pricing">View Pricing</a>
-                            <a href="products/cookie-control-center/privacy.html" class="btn secondary" data-lang="common.privacy">Privacy Policy</a>
-                        </div>
-                    </div>
-                    
-                    <div class="extension-card coming-soon">
-                        <div class="extension-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <h3>More Extensions</h3>
-                        <p data-lang="extensions.soon">Coming Soon...</p>
-                        <button class="btn disabled" disabled data-lang="common.coming_soon">Coming Soon</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4 data-lang="footer.products">Products</h4>
-                    <ul>
-                        <li><a href="extensions/index.html" data-lang="nav.extensions">Extensions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4 data-lang="footer.legal">Legal</h4>
-                    <ul>
-                        <li><a href="legal/terms.html" data-lang="nav.terms">Terms of Service</a></li>
-                        <li><a href="legal/privacy.html" data-lang="common.privacy">Privacy Policy</a></li>
-                        <li><a href="legal/refund.html" data-lang="footer.refund">Refund Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="copyright">
-                <p data-lang="footer.copyright">© 2024 Browser Tools Hub. All rights reserved.</p>
-            </div>
+    <section id="products" class="products-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 data-i18n="home.our_products">Our Products</h2>
+          <p data-i18n="home.products_desc">Discover our suite of browser extensions designed to improve your productivity and privacy.</p>
         </div>
-    </footer>
+        
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-icon">🍪</div>
+            <h3>Cookie Control Center</h3>
+            <p>强大的浏览器Cookie管理工具。支持导入/导出、加密备份、模拟HTTP请求、自定义主题等功能。完全在本地运行，保护您的隐私。</p>
+            <a href="/products/cookie-control-center/pricing.html" class="product-link" data-i18n="home.learn_more">Learn More</a>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-icon">🔒</div>
+            <h3>More Extensions Coming Soon</h3>
+            <p>我们正在开发更多浏览器扩展来提升您的浏览体验。请关注我们的更新，获取最新产品信息。</p>
+            <a href="#" class="product-link" data-i18n="home.get_started">Coming Soon</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <script src="js/language-switcher.js"></script>
-    <script src="js/main.js"></script>
+    <section class="pricing-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 data-i18n="pricing.title">Pricing Plans</h2>
+          <p data-i18n="pricing.subtitle">Choose the plan that fits your needs</p>
+        </div>
+        
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h3 data-i18n="pricing.free">Free</h3>
+            <div class="price">
+              <span class="currency">$</span>
+              <span class="price-amount" data-plan="free">Free</span>
+            </div>
+            <p class="description" data-i18n="pricing.basic">Basic features for everyday use</p>
+            <ul class="pricing-features">
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.export_formats_desc">Export Formats</span>
+                <span>.txt, .csv</span>
+              </li>
+              <li>
+                <span class="icon cross">✗</span>
+                <span data-i18n="pricing.feature_comparison_table.import_formats_desc">Import Formats</span>
+                <span>JSON, SQLite</span>
+              </li>
+              <li>
+                <span class="icon cross">✗</span>
+                <span data-i18n="pricing.feature_comparison_table.encrypted_backup_desc">Encrypted Backup</span>
+              </li>
+              <li>
+                <span class="icon cross">✗</span>
+                <span data-i18n="pricing.feature_comparison_table.site_limit_desc">10 sites</span>
+              </li>
+            </ul>
+            <a href="/products/cookie-control-center/pricing.html" class="pricing-btn outline" data-i18n="pricing.buy_now">Get Free</a>
+          </div>
+          
+          <div class="pricing-card featured">
+            <span class="recommended-badge" data-i18n="pricing.recommended">Recommended</span>
+            <h3 data-i18n="pricing.yearly">Yearly</h3>
+            <div class="price">
+              <span class="currency">$</span>
+              <span class="price-amount" data-plan="yearly">7.99</span>
+              <span class="price-period" data-plan="yearly">/yr</span>
+            </div>
+            <p class="description" data-i18n="pricing.all_features">All features unlocked</p>
+            <ul class="pricing-features">
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.export_formats_desc">Export Formats</span>
+                <span>.txt, .csv, JSON, SQLite</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.import_formats_desc">Import Formats</span>
+                <span>JSON, SQLite</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.encrypted_backup_desc">Encrypted Backup</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.site_limit_desc">300 sites</span>
+              </li>
+            </ul>
+            <a href="/products/cookie-control-center/pricing.html" class="pricing-btn" data-i18n="pricing.buy_now">Buy Now</a>
+          </div>
+          
+          <div class="pricing-card">
+            <h3 data-i18n="pricing.monthly">Monthly</h3>
+            <div class="price">
+              <span class="currency">$</span>
+              <span class="price-amount" data-plan="monthly">1.99</span>
+              <span class="price-period" data-plan="monthly">/mo</span>
+            </div>
+            <p class="description" data-i18n="pricing.all_features">All features unlocked</p>
+            <ul class="pricing-features">
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.export_formats_desc">Export Formats</span>
+                <span>.txt, .csv, JSON, SQLite</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.import_formats_desc">Import Formats</span>
+                <span>JSON, SQLite</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.encrypted_backup_desc">Encrypted Backup</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.site_limit_desc">300 sites</span>
+              </li>
+            </ul>
+            <a href="/products/cookie-control-center/pricing.html" class="pricing-btn outline" data-i18n="pricing.buy_now">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="/products/cookie-control-center/terms.html" data-i18n="footer.terms">Terms of Service</a>
+          <a href="/products/cookie-control-center/terms.html" data-i18n="footer.privacy">Privacy Policy</a>
+        </div>
+        <p class="footer-copyright" data-i18n="footer.copyright">© 2024 Cookie Control Center. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/i18n.js"></script>
+  <script src="/js/main.js"></script>
+  <script>
+    document.querySelectorAll('.language-dropdown button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lang = btn.getAttribute('data-lang');
+        i18n.switchLanguage(lang);
+      });
+    });
+  </script>
 </body>
 </html>
