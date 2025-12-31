@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="pricing.title">Cookie Control Center - Pricing</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/pricing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="../../index.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit;">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <h1>Browser Tools Hub</h1>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html" data-lang="nav.home">Home</a></li>
+                    <li><a href="../index.html" data-lang="nav.extensions">Extensions</a></li>
+                    <li><a href="privacy.html" data-lang="common.privacy">Privacy Policy</a></li>
+                    <li><a href="terms.html" data-lang="common.terms">Terms</a></li>
+                    <li>
+                        <select id="language-selector" class="lang-switcher">
+                            <option value="en">🌐 English</option>
+                            <option value="zh">🌐 中文</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="pricing-header">
+            <div class="container">
+                <h1 data-lang="pricing.title">Cookie Control Center - Pricing</h1>
+                <p data-lang="pricing.subtitle">Choose the perfect plan for your cookie management needs</p>
+            </div>
+        </section>
+
+        <section class="pricing-tiers">
+            <div class="container">
+                <div class="tiers-container">
+                    <!-- Free Tier -->
+                    <div class="pricing-tier">
+                        <div class="tier-header">
+                            <h3 class="tier-title" data-lang="tier.free">Free</h3>
+                            <div class="tier-price" data-lang="tier.free.price">$0</div>
+                            <div class="tier-period" data-lang="tier.free.period">forever</div>
+                        </div>
+                        
+                        <ul class="tier-features">
+                            <li><i class="fas fa-check"></i> <span data-lang="tier.free.feature1">Export as .txt or .csv format</span></li>
+                            <li><i class="fas fa-check"></i> <span data-lang="tier.free.feature2">Manage up to 10 sites</span></li>
+                            <li><i class="fas fa-check"></i> <span data-lang="tier.free.feature3">Basic cookie operations</span></li>
+                            <li><i class="fas fa-times"></i> <span>Import/export structured formats</span></li>
+                            <li><i class="fas fa-times"></i> <span>Encryption for backups</span></li>
+                            <li><i class="fas fa-times"></i> <span>HTTP request simulation</span></li>
+                        </ul>
+                        
+                        <a href="https://chrome.google.com/webstore" target="_blank" class="btn tier-button" data-lang="common.get_started">Get Started for Free</a>
+                    </div>
+                    
+                    <!-- Monthly Tier -->
+                    <div class="pricing-tier featured">
+                        <div class="tier-badge" data-lang="tier.monthly">Monthly</div>
+                        <div class="tier-header">
+                            <h3 class="tier-title" data-lang="tier.monthly">Monthly</h3>
+                            <div class="tier-price" data-lang="tier.monthly.price">$1.99</div>
+                            <div class="tier-period" data-lang="tier.monthly.period">per month</div>
+                        </div>
+                        
+                        <ul class="tier-features">
+                            <li><i class="fas fa-check"></i> <span data-lang="tier.monthly.feature1">All Free features</span></li>
+                            <li><i class="fas fa-check"></i> <span data-lang="tier.monthly.feature2">Import/export as JSON, SQLite</span></li>
+                            <li><i class="fas fa-check"></i> <span data-lang="tier.monthly.feature3">Password encryption for backups</span></li>
+                            <li><i class="fas fa-check"></i> <span data-lang="tier.monthly.feature4">Simulate HTTP requests</span></li>
+                            <li><i class="fas fa-check"></i> <span data-lang="tier.monthly.feature5">Custom themes and UI</span></li>
+                            <li><i class="fas fa-check"></i> <span data-lang="tier.monthly.feature6">Custom keyboard shortcuts</span></li>
+                        </ul>
+                        
+                        <button class="btn tier-button buy-button" data-tier="monthly" data-period="month" data-lang="common.choose_plan">Choose Plan</button>
+                    </div>
+                    
+                    <!-- Yearly Tier -->
+                    <div class="pricing-tier">
+                        <div class="tier-header">
+                            <h3 class="tier-title" data-lang="tier.yearly">Yearly</h3>
+                            <div class="tier-price" data-lang="tier.yearly.price">$7.99</div>
+                            <div class="tier-period">
+                                <span data-lang="tier.yearly.period">per year</span>
+                                <br>
+                                <small style="color: #4CAF50; font-weight: bold;" data-lang="tier.yearly.save">Save 66%</small>
+                            </div>
+                        </div>
+                        
+                        <ul class="tier-features">
+                            <li><i class="fas fa-check"></i> <span data-lang="tier.yearly.feature1">All Monthly features</span></li>
+                            <li><i class="fas fa-check"></i> <span data-lang="tier.yearly.feature2">Priority support</span></li>
+                            <li><i class="fas fa-check"></i> <span>Early access to new features</span></li>
+                            <li><i class="fas fa-check"></i> <span>Remove ads</span></li>
+                            <li><i class="fas fa-check"></i> <span>Manage up to 300 sites</span></li>
+                            <li><i class="fas fa-check"></i> <span>Dark mode & UI customization</span></li>
+                        </ul>
+                        
+                        <button class="btn tier-button buy-button" data-tier="yearly" data-period="year" data-lang="common.choose_plan">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feature-comparison">
+            <div class="container">
+                <h2 data-lang="comparison.title">Feature Comparison</h2>
+                <div class="comparison-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th data-lang="comparison.feature">Feature</th>
+                                <th data-lang="comparison.free">Free</th>
+                                <th data-lang="comparison.premium">Premium</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-lang="comparison.export_format">Export format support</td>
+                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="comparison.export_format.free">.txt, .csv</span></td>
+                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="comparison.export_format.premium">.txt, .csv, JSON, SQLite</span></td>
+                            </tr>
+                            <tr>
+                                <td data-lang="comparison.import_format">Import format support</td>
+                                <td><span class="feature-icon feature-no">✗</span> <span data-lang="comparison.import_format.free">No</span></td>
+                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="comparison.import_format.premium">JSON, SQLite</span></td>
+                            </tr>
+                            <tr>
+                                <td data-lang="comparison.encryption">Encryption for backups</td>
+                                <td><span class="feature-icon feature-no">✗</span> <span data-lang="common.no">No</span></td>
+                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="common.yes">Yes</span></td>
+                            </tr>
+                            <tr>
+                                <td data-lang="comparison.http_simulate">HTTP request simulation</td>
+                                <td><span class="feature-icon feature-no">✗</span> <span data-lang="common.no">No</span></td>
+                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="common.yes">Yes</span></td>
+                            </tr>
+                            <tr>
+                                <td data-lang="comparison.custom_ui">Custom themes and UI</td>
+                                <td><span class="feature-icon feature-no">✗</span> <span data-lang="common.no">No</span></td>
+                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="common.yes">Yes</span></td>
+                            </tr>
+                            <tr>
+                                <td data-lang="comparison.keyboard_shortcuts">Custom keyboard shortcuts</td>
+                                <td><span class="feature-icon feature-no">✗</span> <span data-lang="common.no">No</span></td>
+                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="common.yes">Yes</span></td>
+                            </tr>
+                            <tr>
+                                <td data-lang="comparison.remove_ads">Remove ads</td>
+                                <td><span class="feature-icon feature-no">✗</span> <span data-lang="common.no">No</span></td>
+                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="common.yes">Yes</span></td>
+                            </tr>
+                            <tr>
+                                <td data-lang="comparison.site_limit">Site management limit</td>
+                                <td><span data-lang="comparison.site_limit.free">10 sites</span></td>
+                                <td><span data-lang="comparison.site_limit.premium">300 sites</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <h2 data-lang="faq.title">Frequently Asked Questions</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-lang="faq.q1">What payment methods do you accept?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-lang="faq.a1">We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and other payment methods through Paddle.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-lang="faq.q2">Can I switch between monthly and yearly plans?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-lang="faq.a2">Yes, you can upgrade or downgrade your plan at any time. When upgrading, you'll be charged the prorated difference. When downgrading, the new plan will take effect at the next billing cycle.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-lang="faq.q3">Is there a free trial for premium features?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-lang="faq.a3">Yes! The free version includes all basic features. You can try the premium features for 14 days with our free trial.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-lang="faq.q4">How do refunds work?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-lang="faq.a4">We offer a 30-day money-back guarantee. If you're not satisfied with the premium features, contact us for a full refund.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2 data-lang="cta.title">Ready to Take Control of Your Cookies?</h2>
+                <p data-lang="cta.subtitle">Join thousands of users who have enhanced their browsing experience with Cookie Control Center</p>
+                <div class="cta-buttons">
+                    <a href="https://chrome.google.com/webstore" target="_blank" class="btn" data-lang="cta.get_started">Get Started for Free</a>
+                    <button class="btn secondary buy-button" data-tier="yearly" data-period="year" data-lang="cta.upgrade">Upgrade to Premium</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 data-lang="footer.products">Products</h4>
+                    <ul>
+                        <li><a href="../../index.html" data-lang="nav.home">Home</a></li>
+                        <li><a href="../index.html" data-lang="nav.extensions">Extensions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-lang="footer.legal">Legal</h4>
+                    <ul>
+                        <li><a href="terms.html" data-lang="common.terms">Terms of Service</a></li>
+                        <li><a href="privacy.html" data-lang="common.privacy">Privacy Policy</a></li>
+                        <li><a href="terms.html#refund" data-lang="footer.refund">Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p data-lang="footer.copyright">© 2024 Browser Tools Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/language-switcher.js"></script>
+    <script src="../../js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            initFAQ();
+            initPricingPage();
+        });
+    </script>
+</body>
+</html>
