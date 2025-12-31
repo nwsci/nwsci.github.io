@@ -20,7 +20,14 @@ class LanguageSwitcher {
     
     async loadLanguage(lang) {
         try {
-            const response = await fetch(`lang/${lang}.json`);
+            // 先尝试相对于当前页面的路径
+            let response = await fetch(`lang/${lang}.json`);
+            
+            // 如果失败，尝试从根目录加载
+            if (!response.ok) {
+                response = await fetch(`../../lang/${lang}.json`);
+            }
+            
             this.translations = await response.json();
         } catch (error) {
             console.error(`Failed to load language ${lang}:`, error);
@@ -29,7 +36,14 @@ class LanguageSwitcher {
             if (lang !== 'en') {
                 console.log('Falling back to English...');
                 this.currentLang = 'en';
-                await this.loadLanguage('en');
+                
+                try {
+                    const fallbackResponse = await fetch('../../lang/en.json');
+                    this.translations = await fallbackResponse.json();
+                } catch (fallbackError) {
+                    console.error('Failed to load English fallback:', fallbackError);
+                    this.translations = {}; // 使用空翻译
+                }
             }
         }
     }
