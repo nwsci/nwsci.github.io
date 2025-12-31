@@ -3,64 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="site.title">CodeDigger Studio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/i18n.js" defer></script>
+    <title>Browser Extensions Collection</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- 导航栏将通过i18n.js动态生成 -->
-    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-puzzle-piece"></i>
+                <h1>Browser Tools Hub</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" data-lang="nav.home">Home</a></li>
+                    <li><a href="extensions/index.html" data-lang="nav.extensions">Extensions</a></li>
+                    <li><a href="legal/terms.html" data-lang="nav.terms">Terms</a></li>
+                    <li>
+                        <select id="language-selector" class="lang-switcher">
+                            <option value="en">🌐 English</option>
+                            <option value="zh">🌐 中文</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <main>
         <section class="hero">
-            <h1 data-i18n="home.hero_title">Professional Browser Extensions</h1>
-            <p class="tagline" data-i18n="site.tagline">Building powerful, privacy-focused tools for the modern web.</p>
-        </section>
-
-        <section class="products-showcase">
-            <h2 data-i18n="home.products_title">Our Products</h2>
-            <div class="product-grid">
-                <div class="product-card">
-                    <div class="product-icon">🍪</div>
-                    <h3 data-i18n="cookie_control_center.title">Cookie Control Center</h3>
-                    <p data-i18n="cookie_control_center.subtitle">The ultimate sidebar for complete cookie management.</p>
-                    <div class="product-actions">
-                        <a href="products/cookie-control-center/" class="btn-primary" data-i18n="buttons.learn_more">Learn More</a>
-                        <a href="products/cookie-control-center/pricing.html" class="btn-secondary" data-i18n="home.view_pricing">View Pricing</a>
-                    </div>
-                </div>
-                
-                <div class="product-card coming-soon">
-                    <div class="product-icon">🚧</div>
-                    <h3 data-i18n="home.coming_soon">More Tools Coming</h3>
-                    <p>We're actively developing new browser productivity tools.</p>
-                </div>
+            <div class="container">
+                <h2 data-lang="hero.title">Enhance Your Browsing Experience</h2>
+                <p data-lang="hero.subtitle">Discover our collection of powerful browser extensions designed to improve productivity, security, and control.</p>
             </div>
         </section>
 
-        <section class="business-model">
-            <h2 data-i18n="home.business_model_title">Simple & Transparent Pricing</h2>
-            <div class="model-cards">
-                <div class="model-card">
-                    <h3 data-i18n="home.free_tier_title">Free Forever Tier</h3>
-                    <ul>
-                        <li data-i18n="home.free_tier_items[0]">Core functionality for all products</li>
-                        <li data-i18n="home.free_tier_items[1]">Reasonable usage limits</li>
-                        <li data-i18n="home.free_tier_items[2]">Community support</li>
-                    </ul>
-                </div>
-                <div class="model-card highlight">
-                    <h3 data-i18n="home.premium_tier_title">Premium Subscription</h3>
-                    <ul>
-                        <li data-i18n="home.premium_tier_items[0]">Unlock all advanced features</li>
-                        <li data-i18n="home.premium_tier_items[1]">Higher limits & cloud sync</li>
-                        <li data-i18n="home.premium_tier_items[2]">Priority support</li>
-                        <li data-i18n="home.premium_tier_items[3]">Access to all future products</li>
-                    </ul>
+        <section class="features">
+            <div class="container">
+                <h2 data-lang="features.title">Featured Extensions</h2>
+                <div class="extensions-grid">
+                    <div class="extension-card">
+                        <div class="extension-icon">
+                            <i class="fas fa-cookie-bite"></i>
+                        </div>
+                        <h3>Cookie Control Center</h3>
+                        <p data-lang="extensions.cookie.desc">Advanced cookie management and HTTP request simulation</p>
+                        <div class="extension-links">
+                            <a href="extensions/cookie-control-center/pricing.html" class="btn" data-lang="common.pricing">View Pricing</a>
+                            <a href="extensions/cookie-control-center/privacy.html" class="btn secondary" data-lang="common.privacy">Privacy Policy</a>
+                        </div>
+                    </div>
+                    
+                    <div class="extension-card coming-soon">
+                        <div class="extension-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>More Extensions</h3>
+                        <p data-lang="extensions.soon">Coming Soon...</p>
+                        <button class="btn disabled" disabled data-lang="common.coming_soon">Coming Soon</button>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    
-    <!-- 页脚将通过i18n.js动态生成 -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 data-lang="footer.products">Products</h4>
+                    <ul>
+                        <li><a href="extensions/index.html" data-lang="nav.extensions">Extensions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-lang="footer.legal">Legal</h4>
+                    <ul>
+                        <li><a href="legal/terms.html" data-lang="nav.terms">Terms of Service</a></li>
+                        <li><a href="legal/privacy.html" data-lang="common.privacy">Privacy Policy</a></li>
+                        <li><a href="legal/refund.html" data-lang="footer.refund">Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p data-lang="footer.copyright">© 2024 Browser Tools Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/language-switcher.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
