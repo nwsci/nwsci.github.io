@@ -1,267 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-lang="pricing.title">Cookie Control Center - Pricing</title>
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/pricing.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cookie Control Center Pricing - Choose the plan that fits your needs">
+  <title>Pricing - Cookie Control Center</title>
+  <link rel="stylesheet" href="../../css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="../../index.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit;">
-                    <i class="fas fa-puzzle-piece"></i>
-                    <h1>Browser Tools Hub</h1>
-                </a>
+  <header class="header">
+    <div class="container">
+      <a href="/" class="logo">
+        <div class="logo-icon">🍪</div>
+        <span data-i18n="site.name">Cookie Control Center</span>
+      </a>
+      
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="/" data-i18n="nav.home">Home</a></li>
+          <li><a href="pricing.html" data-i18n="nav.pricing">Pricing</a></li>
+          <li><a href="terms.html" data-i18n="nav.terms">Terms</a></li>
+        </ul>
+        
+        <div class="header-actions">
+          <div class="language-switcher">
+            <button class="language-btn">
+              <span data-i18n="language.switch">Language</span>
+              <span class="caret">▼</span>
+            </button>
+            <div class="language-dropdown">
+              <button data-lang="en" class="active">English</button>
+              <button data-lang="zh">中文</button>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="../../index.html" data-lang="nav.home">Home</a></li>
-                    <li><a href="../index.html" data-lang="nav.extensions">Extensions</a></li>
-                    <li><a href="privacy.html" data-lang="common.privacy">Privacy Policy</a></li>
-                    <li><a href="terms.html" data-lang="common.terms">Terms</a></li>
-                    <li>
-                        <select id="language-selector" class="lang-switcher">
-                            <option value="en">🌐 English</option>
-                            <option value="zh">🌐 中文</option>
-                        </select>
-                    </li>
-                </ul>
-            </nav>
+          </div>
+          
+          <button class="mobile-menu-btn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
-    </header>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <section class="pricing-header">
-            <div class="container">
-                <h1 data-lang="pricing.title">Cookie Control Center - Pricing</h1>
-                <p data-lang="pricing.subtitle">Choose the perfect plan for your cookie management needs</p>
-            </div>
-        </section>
-
-        <section class="pricing-tiers">
-            <div class="container">
-                <div class="tiers-container">
-                    <!-- Free Tier -->
-                    <div class="pricing-tier">
-                        <div class="tier-header">
-                            <h3 class="tier-title" data-lang="tier.free">Free</h3>
-                            <div class="tier-price" data-lang="tier.free.price">$0</div>
-                            <div class="tier-period" data-lang="tier.free.period">forever</div>
-                        </div>
-                        
-                        <ul class="tier-features">
-                            <li><i class="fas fa-check"></i> <span data-lang="tier.free.feature1">Export as .txt or .csv format</span></li>
-                            <li><i class="fas fa-check"></i> <span data-lang="tier.free.feature2">Manage up to 10 sites</span></li>
-                            <li><i class="fas fa-check"></i> <span data-lang="tier.free.feature3">Basic cookie operations</span></li>
-                            <li><i class="fas fa-times"></i> <span>Import/export structured formats</span></li>
-                            <li><i class="fas fa-times"></i> <span>Encryption for backups</span></li>
-                            <li><i class="fas fa-times"></i> <span>HTTP request simulation</span></li>
-                        </ul>
-                        
-                        <a href="https://chrome.google.com/webstore" target="_blank" class="btn tier-button" data-lang="common.get_started">Get Started for Free</a>
-                    </div>
-                    
-                    <!-- Monthly Tier -->
-                    <div class="pricing-tier featured">
-                        <div class="tier-badge" data-lang="tier.monthly">Monthly</div>
-                        <div class="tier-header">
-                            <h3 class="tier-title" data-lang="tier.monthly">Monthly</h3>
-                            <div class="tier-price" data-lang="tier.monthly.price">$1.99</div>
-                            <div class="tier-period" data-lang="tier.monthly.period">per month</div>
-                        </div>
-                        
-                        <ul class="tier-features">
-                            <li><i class="fas fa-check"></i> <span data-lang="tier.monthly.feature1">All Free features</span></li>
-                            <li><i class="fas fa-check"></i> <span data-lang="tier.monthly.feature2">Import/export as JSON, SQLite</span></li>
-                            <li><i class="fas fa-check"></i> <span data-lang="tier.monthly.feature3">Password encryption for backups</span></li>
-                            <li><i class="fas fa-check"></i> <span data-lang="tier.monthly.feature4">Simulate HTTP requests</span></li>
-                            <li><i class="fas fa-check"></i> <span data-lang="tier.monthly.feature5">Custom themes and UI</span></li>
-                            <li><i class="fas fa-check"></i> <span data-lang="tier.monthly.feature6">Custom keyboard shortcuts</span></li>
-                        </ul>
-                        
-                        <button class="btn tier-button buy-button" data-tier="monthly" data-period="month" data-lang="common.choose_plan">Choose Plan</button>
-                    </div>
-                    
-                    <!-- Yearly Tier -->
-                    <div class="pricing-tier">
-                        <div class="tier-header">
-                            <h3 class="tier-title" data-lang="tier.yearly">Yearly</h3>
-                            <div class="tier-price" data-lang="tier.yearly.price">$7.99</div>
-                            <div class="tier-period">
-                                <span data-lang="tier.yearly.period">per year</span>
-                                <br>
-                                <small style="color: #4CAF50; font-weight: bold;" data-lang="tier.yearly.save">Save 66%</small>
-                            </div>
-                        </div>
-                        
-                        <ul class="tier-features">
-                            <li><i class="fas fa-check"></i> <span data-lang="tier.yearly.feature1">All Monthly features</span></li>
-                            <li><i class="fas fa-check"></i> <span data-lang="tier.yearly.feature2">Priority support</span></li>
-                            <li><i class="fas fa-check"></i> <span>Early access to new features</span></li>
-                            <li><i class="fas fa-check"></i> <span>Remove ads</span></li>
-                            <li><i class="fas fa-check"></i> <span>Manage up to 300 sites</span></li>
-                            <li><i class="fas fa-check"></i> <span>Dark mode & UI customization</span></li>
-                        </ul>
-                        
-                        <button class="btn tier-button buy-button" data-tier="yearly" data-period="year" data-lang="common.choose_plan">Choose Plan</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="feature-comparison">
-            <div class="container">
-                <h2 data-lang="comparison.title">Feature Comparison</h2>
-                <div class="comparison-table">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th data-lang="comparison.feature">Feature</th>
-                                <th data-lang="comparison.free">Free</th>
-                                <th data-lang="comparison.premium">Premium</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td data-lang="comparison.export_format">Export format support</td>
-                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="comparison.export_format.free">.txt, .csv</span></td>
-                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="comparison.export_format.premium">.txt, .csv, JSON, SQLite</span></td>
-                            </tr>
-                            <tr>
-                                <td data-lang="comparison.import_format">Import format support</td>
-                                <td><span class="feature-icon feature-no">✗</span> <span data-lang="comparison.import_format.free">No</span></td>
-                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="comparison.import_format.premium">JSON, SQLite</span></td>
-                            </tr>
-                            <tr>
-                                <td data-lang="comparison.encryption">Encryption for backups</td>
-                                <td><span class="feature-icon feature-no">✗</span> <span data-lang="common.no">No</span></td>
-                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="common.yes">Yes</span></td>
-                            </tr>
-                            <tr>
-                                <td data-lang="comparison.http_simulate">HTTP request simulation</td>
-                                <td><span class="feature-icon feature-no">✗</span> <span data-lang="common.no">No</span></td>
-                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="common.yes">Yes</span></td>
-                            </tr>
-                            <tr>
-                                <td data-lang="comparison.custom_ui">Custom themes and UI</td>
-                                <td><span class="feature-icon feature-no">✗</span> <span data-lang="common.no">No</span></td>
-                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="common.yes">Yes</span></td>
-                            </tr>
-                            <tr>
-                                <td data-lang="comparison.keyboard_shortcuts">Custom keyboard shortcuts</td>
-                                <td><span class="feature-icon feature-no">✗</span> <span data-lang="common.no">No</span></td>
-                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="common.yes">Yes</span></td>
-                            </tr>
-                            <tr>
-                                <td data-lang="comparison.remove_ads">Remove ads</td>
-                                <td><span class="feature-icon feature-no">✗</span> <span data-lang="common.no">No</span></td>
-                                <td><span class="feature-icon feature-yes">✓</span> <span data-lang="common.yes">Yes</span></td>
-                            </tr>
-                            <tr>
-                                <td data-lang="comparison.site_limit">Site management limit</td>
-                                <td><span data-lang="comparison.site_limit.free">10 sites</span></td>
-                                <td><span data-lang="comparison.site_limit.premium">300 sites</span></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
-
-        <section class="faq-section">
-            <div class="container">
-                <h2 data-lang="faq.title">Frequently Asked Questions</h2>
-                
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span data-lang="faq.q1">What payment methods do you accept?</span>
-                        <span class="faq-icon">+</span>
-                    </div>
-                    <div class="faq-answer">
-                        <p data-lang="faq.a1">We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and other payment methods through Paddle.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span data-lang="faq.q2">Can I switch between monthly and yearly plans?</span>
-                        <span class="faq-icon">+</span>
-                    </div>
-                    <div class="faq-answer">
-                        <p data-lang="faq.a2">Yes, you can upgrade or downgrade your plan at any time. When upgrading, you'll be charged the prorated difference. When downgrading, the new plan will take effect at the next billing cycle.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span data-lang="faq.q3">Is there a free trial for premium features?</span>
-                        <span class="faq-icon">+</span>
-                    </div>
-                    <div class="faq-answer">
-                        <p data-lang="faq.a3">Yes! The free version includes all basic features. You can try the premium features for 14 days with our free trial.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span data-lang="faq.q4">How do refunds work?</span>
-                        <span class="faq-icon">+</span>
-                    </div>
-                    <div class="faq-answer">
-                        <p data-lang="faq.a4">We offer a 30-day money-back guarantee. If you're not satisfied with the premium features, contact us for a full refund.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="cta-section">
-            <div class="container">
-                <h2 data-lang="cta.title">Ready to Take Control of Your Cookies?</h2>
-                <p data-lang="cta.subtitle">Join thousands of users who have enhanced their browsing experience with Cookie Control Center</p>
-                <div class="cta-buttons">
-                    <a href="https://chrome.google.com/webstore" target="_blank" class="btn" data-lang="cta.get_started">Get Started for Free</a>
-                    <button class="btn secondary buy-button" data-tier="yearly" data-period="year" data-lang="cta.upgrade">Upgrade to Premium</button>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4 data-lang="footer.products">Products</h4>
-                    <ul>
-                        <li><a href="../../index.html" data-lang="nav.home">Home</a></li>
-                        <li><a href="../index.html" data-lang="nav.extensions">Extensions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4 data-lang="footer.legal">Legal</h4>
-                    <ul>
-                        <li><a href="terms.html" data-lang="common.terms">Terms of Service</a></li>
-                        <li><a href="privacy.html" data-lang="common.privacy">Privacy Policy</a></li>
-                        <li><a href="terms.html#refund" data-lang="footer.refund">Refund Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="copyright">
-                <p data-lang="footer.copyright">© 2024 Browser Tools Hub. All rights reserved.</p>
-            </div>
+  <main>
+    <section class="pricing-section">
+      <div class="container">
+        <div class="section-header">
+          <h1 data-i18n="pricing.title">Pricing Plans</h1>
+          <p data-i18n="pricing.subtitle">Choose the plan that fits your needs</p>
         </div>
-    </footer>
+        
+        <div class="pricing-toggle">
+          <span data-i18n="pricing.monthly">Monthly</span>
+          <div class="toggle-switch"></div>
+          <span data-i18n="pricing.yearly">Yearly</span>
+          <span class="savings-badge" data-i18n="pricing.yearly_savings">Save 67%</span>
+        </div>
+        
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h3 data-i18n="pricing.free">Free</h3>
+            <div class="price">
+              <span class="currency">$</span>
+              <span class="price-amount" data-plan="free">Free</span>
+            </div>
+            <p class="description" data-i18n="pricing.basic">Basic features for everyday use</p>
+            <ul class="pricing-features">
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.export_formats_desc">Export Formats</span>
+                <span data-i18n="pricing.feature_comparison_table.txt_csv">.txt, .csv</span>
+              </li>
+              <li>
+                <span class="icon cross">✗</span>
+                <span data-i18n="pricing.feature_comparison_table.import_formats_desc">Import Formats</span>
+                <span data-i18n="pricing.feature_comparison_table.json_sqlite">JSON, SQLite</span>
+              </li>
+              <li>
+                <span class="icon cross">✗</span>
+                <span data-i18n="pricing.feature_comparison_table.encrypted_backup_desc">Password-encrypted backup</span>
+              </li>
+              <li>
+                <span class="icon cross">✗</span>
+                <span data-i18n="pricing.feature_comparison_table.http_simulation_desc">Simulate HTTP requests</span>
+              </li>
+              <li>
+                <span class="icon cross">✗</span>
+                <span data-i18n="pricing.feature_comparison_table.api_requests_desc">Send API requests with cookies</span>
+              </li>
+              <li>
+                <span class="icon cross">✗</span>
+                <span data-i18n="pricing.feature_comparison_table.custom_themes_desc">Custom themes</span>
+              </li>
+              <li>
+                <span class="icon cross">✗</span>
+                <span data-i18n="pricing.feature_comparison_table.dark_mode_desc">Dark mode support</span>
+              </li>
+              <li>
+                <span class="icon cross">✗</span>
+                <span data-i18n="pricing.feature_comparison_table.sidebar_desc">Custom sidebar size</span>
+              </li>
+              <li>
+                <span class="icon cross">✗</span>
+                <span data-i18n="pricing.feature_comparison_table.shortcuts_desc">Custom keyboard shortcuts</span>
+              </li>
+              <li>
+                <span class="icon cross">✗</span>
+                <span data-i18n="pricing.feature_comparison_table.ad_free_desc">Remove page ads</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.site_limit_desc">Maximum sites managed</span>
+                <span data-i18n="pricing.feature_comparison_table.free_sites">10 sites</span>
+              </li>
+            </ul>
+            <a href="#" class="pricing-btn outline" data-i18n="pricing.buy_now">Get Free</a>
+          </div>
+          
+          <div class="pricing-card featured">
+            <span class="recommended-badge" data-i18n="pricing.recommended">Recommended</span>
+            <h3 data-i18n="pricing.yearly">Yearly</h3>
+            <div class="price">
+              <span class="currency">$</span>
+              <span class="price-amount" data-plan="yearly">7.99</span>
+              <span class="price-period" data-plan="yearly">/yr</span>
+            </div>
+            <p class="description" data-i18n="pricing.all_features">All features unlocked</p>
+            <ul class="pricing-features">
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.export_formats_desc">Export Formats</span>
+                <span data-i18n="pricing.feature_comparison_table.json_sqlite">JSON, SQLite</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.import_formats_desc">Import Formats</span>
+                <span data-i18n="pricing.feature_comparison_table.json_sqlite">JSON, SQLite</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.encrypted_backup_desc">Password-encrypted backup</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.http_simulation_desc">Simulate HTTP requests</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.api_requests_desc">Send API requests with cookies</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.custom_themes_desc">Custom themes</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.dark_mode_desc">Dark mode support</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.sidebar_desc">Custom sidebar size</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.shortcuts_desc">Custom keyboard shortcuts</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.ad_free_desc">Remove page ads</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.site_limit_desc">Maximum sites managed</span>
+                <span data-i18n="pricing.feature_comparison_table.pro_sites">300 sites</span>
+              </li>
+            </ul>
+            <a href="#" class="pricing-btn" data-i18n="pricing.buy_now">Buy Now</a>
+          </div>
+          
+          <div class="pricing-card">
+            <h3 data-i18n="pricing.monthly">Monthly</h3>
+            <div class="price">
+              <span class="currency">$</span>
+              <span class="price-amount" data-plan="monthly">1.99</span>
+              <span class="price-period" data-plan="monthly">/mo</span>
+            </div>
+            <p class="description" data-i18n="pricing.all_features">All features unlocked</p>
+            <ul class="pricing-features">
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.export_formats_desc">Export Formats</span>
+                <span data-i18n="pricing.feature_comparison_table.json_sqlite">JSON, SQLite</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.import_formats_desc">Import Formats</span>
+                <span data-i18n="pricing.feature_comparison_table.json_sqlite">JSON, SQLite</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.encrypted_backup_desc">Password-encrypted backup</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.http_simulation_desc">Simulate HTTP requests</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.api_requests_desc">Send API requests with cookies</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.custom_themes_desc">Custom themes</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.dark_mode_desc">Dark mode support</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.sidebar_desc">Custom sidebar size</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.shortcuts_desc">Custom keyboard shortcuts</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.ad_free_desc">Remove page ads</span>
+              </li>
+              <li>
+                <span class="icon check">✓</span>
+                <span data-i18n="pricing.feature_comparison_table.site_limit_desc">Maximum sites managed</span>
+                <span data-i18n="pricing.feature_comparison_table.pro_sites">300 sites</span>
+              </li>
+            </ul>
+            <a href="#" class="pricing-btn outline" data-i18n="pricing.buy_now">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <script src="../../js/language-switcher.js"></script>
-    <script src="../../js/main.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            initFAQ();
-            initPricingPage();
-        });
-    </script>
+    <section class="feature-comparison">
+      <div class="container">
+        <div class="section-header">
+          <h2 data-i18n="pricing.features_title">Feature Comparison</h2>
+        </div>
+        
+        <div class="comparison-table-container">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th class="feature-col" data-i18n="pricing.feature_comparison_table.feature">Feature</th>
+                <th class="free-col" data-i18n="pricing.feature_comparison_table.free">Free</th>
+                <th class="pro-col" data-i18n="pricing.feature_comparison_table.pro">Pro</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="feature-name" data-i18n="pricing.feature_comparison_table.export_formats_desc">Export Formats</td>
+                <td class="center">.txt, .csv</td>
+                <td class="center">JSON, SQLite</td>
+              </tr>
+              <tr>
+                <td class="feature-name" data-i18n="pricing.feature_comparison_table.import_formats_desc">Import Formats</td>
+                <td class="center">-</td>
+                <td class="center">JSON, SQLite</td>
+              </tr>
+              <tr>
+                <td class="feature-name" data-i18n="pricing.feature_comparison_table.encrypted_backup_desc">Password-encrypted backup</td>
+                <td class="center"><span class="cross-icon">✗</span></td>
+                <td class="center"><span class="check-icon">✓</span></td>
+              </tr>
+              <tr>
+                <td class="feature-name" data-i18n="pricing.feature_comparison_table.http_simulation_desc">Simulate HTTP requests</td>
+                <td class="center"><span class="cross-icon">✗</span></td>
+                <td class="center"><span class="check-icon">✓</span></td>
+              </tr>
+              <tr>
+                <td class="feature-name" data-i18n="pricing.feature_comparison_table.api_requests_desc">Send API requests with cookies</td>
+                <td class="center"><span class="cross-icon">✗</span></td>
+                <td class="center"><span class="check-icon">✓</span></td>
+              </tr>
+              <tr>
+                <td class="feature-name" data-i18n="pricing.feature_comparison_table.custom_themes_desc">Custom themes</td>
+                <td class="center"><span class="cross-icon">✗</span></td>
+                <td class="center"><span class="check-icon">✓</span></td>
+              </tr>
+              <tr>
+                <td class="feature-name" data-i18n="pricing.feature_comparison_table.dark_mode_desc">Dark mode support</td>
+                <td class="center"><span class="cross-icon">✗</span></td>
+                <td class="center"><span class="check-icon">✓</span></td>
+              </tr>
+              <tr>
+                <td class="feature-name" data-i18n="pricing.feature_comparison_table.sidebar_desc">Custom sidebar size</td>
+                <td class="center"><span class="cross-icon">✗</span></td>
+                <td class="center"><span class="check-icon">✓</span></td>
+              </tr>
+              <tr>
+                <td class="feature-name" data-i18n="pricing.feature_comparison_table.shortcuts_desc">Custom keyboard shortcuts</td>
+                <td class="center"><span class="cross-icon">✗</span></td>
+                <td class="center"><span class="check-icon">✓</span></td>
+              </tr>
+              <tr>
+                <td class="feature-name" data-i18n="pricing.feature_comparison_table.ad_free_desc">Remove page ads</td>
+                <td class="center"><span class="cross-icon">✗</span></td>
+                <td class="center"><span class="check-icon">✓</span></td>
+              </tr>
+              <tr>
+                <td class="feature-name" data-i18n="pricing.feature_comparison_table.site_limit_desc">Maximum sites managed</td>
+                <td class="center">10</td>
+                <td class="center">300</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="terms.html" data-i18n="footer.terms">Terms of Service</a>
+          <a href="terms.html" data-i18n="footer.privacy">Privacy Policy</a>
+        </div>
+        <p class="footer-copyright" data-i18n="footer.copyright">© 2024 Cookie Control Center. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../js/i18n.js"></script>
+  <script src="../../js/main.js"></script>
+  <script>
+    document.querySelectorAll('.language-dropdown button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lang = btn.getAttribute('data-lang');
+        i18n.switchLanguage(lang);
+      });
+    });
+  </script>
 </body>
 </html>
