@@ -1,94 +1,139 @@
 {
-    "nav.home": "Home",
-    "nav.extensions": "Extensions",
-    "nav.terms": "Terms of Service",
-    "nav.privacy": "Privacy Policy",
-    
-    "hero.title": "Enhance Your Browsing Experience",
-    "hero.subtitle": "Discover our collection of powerful browser extensions designed to improve productivity, security, and control.",
-    
-    "features.title": "Featured Extensions",
-    
-    "extensions.cookie.desc": "Advanced cookie management and HTTP request simulation",
-    "extensions.soon": "More useful extensions are coming soon...",
-    
-    "common.pricing": "View Pricing",
-    "common.privacy": "Privacy Policy",
-    "common.terms": "Terms of Service",
-    "common.get_started": "Get Started",
-    "common.choose_plan": "Choose Plan",
-    "common.coming_soon": "Coming Soon",
-    "common.yes": "Yes",
-    "common.no": "No",
-    "common.unlimited": "Unlimited",
-    
-    "footer.products": "Products",
-    "footer.legal": "Legal",
-    "footer.refund": "Refund Policy",
-    "footer.copyright": "© 2024 Browser Tools Hub. All rights reserved.",
-    
-    "pricing.title": "Cookie Control Center - Pricing",
-    "pricing.subtitle": "Choose the perfect plan for your cookie management needs",
-    
-    "tier.free": "Free",
-    "tier.free.price": "$0",
-    "tier.free.period": "forever",
-    "tier.free.feature1": "Export as .txt or .csv format",
-    "tier.free.feature2": "Manage up to 10 sites",
-    "tier.free.feature3": "Basic cookie operations",
-    
-    "tier.monthly": "Monthly",
-    "tier.monthly.price": "$1.99",
-    "tier.monthly.period": "per month",
-    "tier.monthly.feature1": "All Free features",
-    "tier.monthly.feature2": "Import/export as JSON, SQLite",
-    "tier.monthly.feature3": "Password encryption for backups",
-    "tier.monthly.feature4": "Simulate HTTP requests",
-    "tier.monthly.feature5": "Custom themes and UI",
-    "tier.monthly.feature6": "Custom keyboard shortcuts",
-    "tier.monthly.feature7": "Remove ads",
-    "tier.monthly.feature8": "Manage up to 300 sites",
-    
-    "tier.yearly": "Yearly",
-    "tier.yearly.price": "$7.99",
-    "tier.yearly.period": "per year",
-    "tier.yearly.save": "Save 66%",
-    "tier.yearly.feature1": "All Monthly features",
-    "tier.yearly.feature2": "Priority support",
-    
-    "comparison.title": "Feature Comparison",
-    "comparison.feature": "Feature",
-    "comparison.free": "Free",
-    "comparison.premium": "Premium",
-    "comparison.export_format": "Export format support",
-    "comparison.export_format.free": ".txt, .csv",
-    "comparison.export_format.premium": ".txt, .csv, JSON, SQLite",
-    "comparison.import_format": "Import format support",
-    "comparison.import_format.free": "No",
-    "comparison.import_format.premium": "JSON, SQLite",
-    "comparison.encryption": "Encryption for backups",
-    "comparison.http_simulate": "HTTP request simulation",
-    "comparison.custom_ui": "Custom themes and UI",
-    "comparison.keyboard_shortcuts": "Custom keyboard shortcuts",
-    "comparison.remove_ads": "Remove ads",
-    "comparison.site_limit": "Site management limit",
-    "comparison.site_limit.free": "10 sites",
-    "comparison.site_limit.premium": "300 sites",
-    
-    "faq.title": "Frequently Asked Questions",
-    "faq.q1": "What payment methods do you accept?",
-    "faq.a1": "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and other payment methods through Paddle.",
-    "faq.q2": "Can I switch between monthly and yearly plans?",
-    "faq.a2": "Yes, you can upgrade or downgrade your plan at any time. When upgrading, you'll be charged the prorated difference. When downgrading, the new plan will take effect at the next billing cycle.",
-    "faq.q3": "Is there a free trial for premium features?",
-    "faq.a3": "Yes! The free version includes all basic features. You can try the premium features for 14 days with our free trial.",
-    "faq.q4": "How do refunds work?",
-    "faq.a4": "We offer a 30-day money-back guarantee. If you're not satisfied with the premium features, contact us for a full refund.",
-    "faq.q5": "Do you offer discounts for students or non-profits?",
-    "faq.a5": "Yes, we offer 50% discounts for students and registered non-profit organizations. Please contact us with proof of status.",
-    
-    "cta.title": "Ready to Take Control of Your Cookies?",
-    "cta.subtitle": "Join thousands of users who have enhanced their browsing experience with Cookie Control Center",
-    "cta.get_started": "Get Started for Free",
-    "cta.upgrade": "Upgrade to Premium"
+  "site": {
+    "name": "Cookie Control Center",
+    "tagline": "Powerful Cookie Management for Your Browser",
+    "description": "Manage, backup, and secure your browser cookies with ease."
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "pricing": "Pricing",
+    "terms": "Terms",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Browser Extensions for Power Users",
+    "subtitle": "Enhance your browsing experience with our powerful tools",
+    "cta": "View Products"
+  },
+  "home": {
+    "our_products": "Our Products",
+    "products_desc": "Discover our suite of browser extensions designed to improve your productivity and privacy.",
+    "learn_more": "Learn More",
+    "get_started": "Get Started"
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "subtitle": "Choose the plan that fits your needs",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "yearly_savings": "Save 67%",
+    "per_month": "/month",
+    "per_year": "/year",
+    "buy_now": "Buy Now",
+    "recommended": "Recommended",
+    "features_title": "Feature Comparison",
+    "export_formats": "Export Formats",
+    "import_formats": "Import Formats",
+    "encrypted_backup": "Encrypted Backup",
+    "http_simulation": "HTTP Request Simulation",
+    "api_requests": "Direct API Requests",
+    "custom_themes": "Custom Themes",
+    "dark_mode": "Dark Mode",
+    "sidebar_customization": "Sidebar Customization",
+    "keyboard_shortcuts": "Keyboard Shortcuts",
+    "ad_free": "Ad-Free Experience",
+    "site_management": "Site Management",
+    "free": "Free",
+    "basic": "Basic",
+    "advanced": "Advanced",
+    "all_features": "All Features",
+    "feature_comparison_table": {
+      "feature": "Feature",
+      "free": "Free",
+      "pro": "Pro",
+      "export_formats_desc": "Export Formats",
+      "import_formats_desc": "Import Formats",
+      "encrypted_backup_desc": "Password-encrypted backup",
+      "http_simulation_desc": "Simulate HTTP requests",
+      "api_requests_desc": "Send API requests with cookies",
+      "custom_themes_desc": "Custom themes",
+      "dark_mode_desc": "Dark mode support",
+      "sidebar_desc": "Custom sidebar size",
+      "shortcuts_desc": "Custom keyboard shortcuts",
+      "ad_free_desc": "Remove page ads",
+      "site_limit_desc": "Maximum sites managed",
+      "txt_csv": ".txt, .csv",
+      "json_sqlite": "JSON, SQLite",
+      "yes": "Yes",
+      "no": "No",
+      "free_sites": "10 sites",
+      "pro_sites": "300 sites"
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "last_updated": "Last updated: December 2024",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "content": "By downloading, installing, or using Cookie Control Center, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our software."
+      },
+      "license": {
+        "title": "2. License Grant",
+        "content": "We grant you a limited, non-exclusive, revocable license to use our software for personal, non-commercial purposes in accordance with these terms."
+      },
+      "privacy": {
+        "title": "3. Privacy Policy",
+        "content": "Your privacy is important to us. Cookie Control Center processes cookie data locally on your device. We do not collect, store, or transmit your personal data or cookie information to our servers. Any data you export remains on your device and is never shared with third parties without your explicit consent."
+      },
+      "data_collection": {
+        "title": "4. Data Collection",
+        "content": "We do not collect any personal information from users. The extension operates entirely locally. We may collect anonymous usage statistics to improve our product, but this data cannot be used to identify individual users."
+      },
+      "payments": {
+        "title": "5. Payments and Subscriptions",
+        "content": "Payments are processed securely through Paddle. Your payment information is never stored on our servers. Subscriptions can be canceled at any time through your Paddle account dashboard."
+      },
+      "refunds": {
+        "title": "6. Refund Policy",
+        "content": "We offer a 14-day money-back guarantee on all paid subscriptions. If you are not satisfied with your purchase, please contact us within 14 days of payment to request a refund. Refunds will be processed within 5-7 business days. No refunds will be given for subscriptions older than 14 days or for accounts that have violated our terms of service."
+      },
+      "prohibited": {
+        "title": "7. Prohibited Use",
+        "content": "You agree not to: (a) reverse engineer or attempt to derive the source code of our software; (b) use our software for any illegal or unauthorized purpose; (c) interfere with or disrupt the operation of our software."
+      },
+      "disclaimer": {
+        "title": "8. Disclaimer",
+        "content": "Our software is provided 'as is' without warranty of any kind. We are not responsible for any data loss, system damage, or other issues arising from the use of our software."
+      },
+      "changes": {
+        "title": "9. Changes to Terms",
+        "content": "We reserve the right to modify these terms at any time. Continued use of our software after any changes constitutes acceptance of the new terms."
+      },
+      "contact": {
+        "title": "10. Contact Us",
+        "content": "If you have any questions about these terms, please contact us through the extension's support channel."
+      }
+    },
+    "privacy_title": "Privacy Policy",
+    "refund_title": "Refund Policy",
+    "back_to_home": "Back to Home",
+    "view_pricing": "View Pricing"
+  },
+  "footer": {
+    "copyright": "© 2024 Cookie Control Center. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "language": {
+    "switch": "Language",
+    "en": "English",
+    "zh": "中文"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry"
+  }
 }
