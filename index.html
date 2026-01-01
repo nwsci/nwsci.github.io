@@ -63,15 +63,15 @@
         <div class="products-grid">
           <div class="product-card">
             <div class="product-icon">🍪</div>
-            <h3>Code Digger</h3>
-            <p>强大的浏览器Cookie管理工具。支持导入/导出、加密备份、模拟HTTP请求、自定义主题等功能。完全在本地运行，保护您的隐私。</p>
+            <h3>Cookie Control Center</h3>
+            <p data-i18n="home.product_desc">Powerful browser cookie management tool. Supports import/export, encrypted backup, HTTP request simulation, custom themes and more. Runs entirely locally to protect your privacy.</p>
             <a href="/products/cookie-control-center/pricing.html" class="product-link" data-i18n="home.learn_more">Learn More</a>
           </div>
           
           <div class="product-card">
             <div class="product-icon">🔒</div>
-            <h3>More Extensions Coming Soon</h3>
-            <p>我们正在开发更多浏览器扩展来提升您的浏览体验。请关注我们的更新，获取最新产品信息。</p>
+            <h3 data-i18n="home.coming_soon_title">More Extensions Coming Soon</h3>
+            <p data-i18n="home.coming_soon_desc">We are developing more browser extensions to enhance your browsing experience. Stay tuned for updates.</p>
             <a href="#" class="product-link" data-i18n="home.get_started">Coming Soon</a>
           </div>
         </div>
@@ -198,6 +198,8 @@
   <script src="/js/i18n.js"></script>
   <script src="/js/main.js"></script>
   <script>
+    i18n.init();
+    
     document.querySelectorAll('.language-dropdown button').forEach(btn => {
       btn.addEventListener('click', () => {
         const lang = btn.getAttribute('data-lang');
