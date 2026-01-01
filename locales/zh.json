@@ -33,17 +33,6 @@
     "buy_now": "立即购买",
     "recommended": "推荐",
     "features_title": "功能对比",
-    "export_formats": "导出格式",
-    "import_formats": "导入格式",
-    "encrypted_backup": "加密备份",
-    "http_simulation": "HTTP请求模拟",
-    "api_requests": "直接API请求",
-    "custom_themes": "自定义主题",
-    "dark_mode": "暗黑模式",
-    "sidebar_customization": "侧边栏自定义",
-    "keyboard_shortcuts": "键盘快捷键",
-    "ad_free": "去广告体验",
-    "site_management": "站点管理",
     "free": "免费版",
     "basic": "基础版",
     "advanced": "高级版",
@@ -65,8 +54,6 @@
       "site_limit_desc": "最大管理站点数",
       "txt_csv": ".txt, .csv",
       "json_sqlite": "JSON, SQLite",
-      "yes": "是",
-      "no": "否",
       "free_sites": "10个站点",
       "pro_sites": "300个站点"
     }
@@ -74,7 +61,12 @@
   "terms": {
     "title": "服务条款",
     "last_updated": "最后更新：2024年12月",
+    "privacy_title": "隐私政策",
+    "refund_title": "退款政策",
+    "back_to_home": "返回首页",
+    "view_pricing": "查看定价",
     "sections": {
+      "terms_of_service": "服务条款",
       "acceptance": {
         "title": "1. 条款接受",
         "content": "下载、安装或使用Cookie Control Center即表示您同意受本服务条款的约束。如果您不同意这些条款，请不要使用我们的软件。"
@@ -83,43 +75,52 @@
         "title": "2. 许可授权",
         "content": "我们授予您有限的、非排他的、可撤销的许可，允许您根据这些条款将我们的软件用于个人非商业用途。"
       },
-      "privacy": {
-        "title": "3. 隐私政策",
-        "content": "您的隐私对我们很重要。Cookie Control Center在您的设备上本地处理Cookie数据。我们不会收集、存储或将您的个人信息或Cookie信息传输到我们的服务器。您导出的任何数据都保留在您的设备上，未经您的明确同意不会与第三方共享。"
-      },
-      "data_collection": {
-        "title": "4. 数据收集",
-        "content": "我们不会从用户收集任何个人信息。该扩展完全在本地运行。我们可能会收集匿名使用统计数据来改进我们的产品，但这些数据无法用于识别个人用户。"
-      },
-      "payments": {
-        "title": "5. 支付和订阅",
-        "content": "通过Paddle安全处理您的支付信息。您的支付信息永远不会存储在我们的服务器上。订阅可以随时通过您的Paddle账户仪表板取消。"
-      },
-      "refunds": {
-        "title": "6. 退款政策",
-        "content": "我们为所有付费订阅提供14天退款保证。如果您对购买不满意，请在付款后14天内联系我们申请退款。退款将在5-7个工作日内处理。超过14天的订阅或违反我们服务条款的账户将不予退款。"
-      },
       "prohibited": {
-        "title": "7. 禁止使用",
+        "title": "3. 禁止使用",
         "content": "您同意不：(a) 反向工程或试图推导我们软件的源代码；(b) 将我们的软件用于任何非法或未经授权的目的；(c) 干扰或扰乱我们软件的运行。"
       },
       "disclaimer": {
-        "title": "8. 免责声明",
-        "content": "我们的软件按'原样'提供，不提供任何形式的保证。我们对因使用我们的软件而导致的任何数据丢失、系统损坏或其他问题不承担责任。"
+        "title": "4. 免责声明",
+        "content": "我们的软件按「原样」提供，不提供任何形式的保证。我们对因使用我们的软件而导致的任何数据丢失、系统损坏或其他问题不承担责任。"
       },
       "changes": {
-        "title": "9. 条款变更",
+        "title": "5. 条款变更",
         "content": "我们保留随时修改这些条款的权利。在我们对软件进行任何更改后继续使用即表示您接受新条款。"
       },
       "contact": {
-        "title": "10. 联系我们",
+        "title": "6. 联系我们",
         "content": "如果您对这些条款有任何疑问，请通过扩展的支持渠道联系我们。"
+      },
+      "data_processing": {
+        "title": "1. 数据处理",
+        "content": "您的隐私对我们很重要。Cookie Control Center在您的设备上本地处理Cookie数据。我们不会收集、存储或将您的个人信息或Cookie信息传输到我们的服务器。您导出的任何数据都保留在您的设备上，未经您的明确同意不会与第三方共享。"
+      },
+      "data_collection": {
+        "title": "2. 数据收集",
+        "content": "我们不会从用户收集任何个人信息。该扩展完全在本地运行。我们可能会收集匿名使用统计数据来改进我们的产品，但这些数据无法用于识别个人用户。"
+      },
+      "payment_security": {
+        "title": "3. 支付安全",
+        "content": "通过Paddle安全处理您的支付信息。您的支付信息永远不会存储在我们的服务器上。订阅可以随时通过您的Paddle账户仪表板取消。"
+      },
+      "refund_eligibility": {
+        "title": "1. 退款资格",
+        "content": "我们为所有付费订阅提供14天退款保证。如果您对购买不满意，请在付款后14天内联系我们申请退款。退款将在5-7个工作日内处理。超过14天的订阅或违反我们服务条款的账户将不予退款。"
+      },
+      "how_to_request": {
+        "title": "2. 如何申请退款",
+        "content": "如需申请退款，请通过扩展的支持渠道或发送电子邮件至support@cookiecontrolcenter.com联系我们。请附上您的购买信息和退款申请原因。"
+      },
+      "refund_processing": {
+        "title": "3. 退款处理",
+        "content": "一旦您的退款申请获得批准，退款将通过Paddle处理到您原来的付款方式。处理时间可能因您的付款提供商而异。"
+      },
+      "exceptions": {
+        "title": "4. 例外情况",
+        "content": "以下情况将不予退款：",
+        "items_html": "<li>订阅从购买日期起已超过14天</li><li>用户违反了服务条款</li><li>用户通过其付款提供商要求拒付</li><li>订阅已赠送或转移至另一个账户</li>"
       }
-    },
-    "privacy_title": "隐私政策",
-    "refund_title": "退款政策",
-    "back_to_home": "返回首页",
-    "view_pricing": "查看定价"
+    }
   },
   "footer": {
     "copyright": "© 2024 Cookie Control Center。保留所有权利。",
