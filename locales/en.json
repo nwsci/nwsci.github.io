@@ -19,8 +19,11 @@
   "home": {
     "our_products": "Our Products",
     "products_desc": "Discover our suite of browser extensions designed to improve your productivity and privacy.",
+    "product_desc": "Powerful browser cookie management tool. Supports import/export, encrypted backup, HTTP request simulation, custom themes and more. Runs entirely locally to protect your privacy.",
+    "coming_soon_title": "More Extensions Coming Soon",
+    "coming_soon_desc": "We are developing more browser extensions to enhance your browsing experience. Stay tuned for updates.",
     "learn_more": "Learn More",
-    "get_started": "Get Started"
+    "get_started": "Coming Soon"
   },
   "pricing": {
     "title": "Pricing Plans",
