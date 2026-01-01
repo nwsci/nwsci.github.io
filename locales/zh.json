@@ -69,7 +69,7 @@
       "terms_of_service": "服务条款",
       "acceptance": {
         "title": "1. 条款接受",
-        "content": "下载、安装或使用Code Digger即表示您同意受本服务条款的约束。如果您不同意这些条款，请不要使用我们的软件。"
+        "content": "下载、安装或使用Code Digger的Cookie Control Center即表示您同意受本服务条款的约束。如果您不同意这些条款，请不要使用我们的软件。"
       },
       "license": {
         "title": "2. 许可授权",
@@ -93,7 +93,7 @@
       },
       "data_processing": {
         "title": "1. 数据处理",
-        "content": "您的隐私对我们很重要。Code Digger在您的设备上本地处理Cookie数据。我们不会收集、存储或将您的个人信息或Cookie信息传输到我们的服务器。您导出的任何数据都保留在您的设备上，未经您的明确同意不会与第三方共享。"
+        "content": "您的隐私对我们很重要。Code Digger的Cookie Control Center在您的设备上本地处理Cookie数据。我们不会收集、存储或将您的个人信息或Cookie信息传输到我们的服务器。您导出的任何数据都保留在您的设备上，未经您的明确同意不会与第三方共享。"
       },
       "data_collection": {
         "title": "2. 数据收集",
@@ -109,7 +109,7 @@
       },
       "how_to_request": {
         "title": "2. 如何申请退款",
-        "content": "如需申请退款，请通过扩展的支持渠道或发送电子邮件至support@cookiecontrolcenter.com联系我们。请附上您的购买信息和退款申请原因。"
+        "content": "如需申请退款，请通过扩展的支持渠道或发送电子邮件至whoiszsm@qq.com联系我们。请附上您的购买信息和退款申请原因。"
       },
       "refund_processing": {
         "title": "3. 退款处理",
