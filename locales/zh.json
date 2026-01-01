@@ -19,8 +19,11 @@
   "home": {
     "our_products": "我们的产品",
     "products_desc": "探索我们的浏览器扩展，提升您的生产力和隐私保护。",
+    "product_desc": "强大的浏览器Cookie管理工具。支持导入/导出、加密备份、模拟HTTP请求、自定义主题等功能。完全在本地运行，保护您的隐私。",
+    "coming_soon_title": "更多扩展即将推出",
+    "coming_soon_desc": "我们正在开发更多浏览器扩展来提升您的浏览体验。请关注我们的更新，获取最新产品信息。",
     "learn_more": "了解更多",
-    "get_started": "开始使用"
+    "get_started": "即将推出"
   },
   "pricing": {
     "title": "定价方案",
