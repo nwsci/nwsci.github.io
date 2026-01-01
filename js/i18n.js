@@ -95,9 +95,16 @@ const i18n = {
     };
     
     const currentLabel = langLabels[this.currentLang] || 'Language';
-    document.querySelectorAll('.language-btn span:not(.caret)').forEach(span => {
-      span.textContent = currentLabel;
-    });
+    
+    const langBtn = document.querySelector('.language-btn');
+    if (langBtn) {
+      const textSpan = langBtn.querySelector('span:not(.caret)');
+      if (textSpan) {
+        textSpan.textContent = currentLabel;
+      } else {
+        langBtn.childNodes[0].textContent = currentLabel + ' ';
+      }
+    }
   },
   
   switchLanguage(lang) {
