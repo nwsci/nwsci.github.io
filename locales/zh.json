@@ -18,7 +18,7 @@
   },
   "home": {
     "our_products": "我们的产品",
-    "products_desc": "探索我们的浏览器扩展套件，提升您的生产力和隐私保护。",
+    "products_desc": "探索我们的浏览器扩展，提升您的生产力和隐私保护。",
     "learn_more": "了解更多",
     "get_started": "开始使用"
   },
@@ -109,7 +109,7 @@
       },
       "how_to_request": {
         "title": "2. 如何申请退款",
-        "content": "如需申请退款，请通过扩展的支持渠道或发送电子邮件至support@cookiecontrolcenter.com联系我们。请附上您的购买信息和退款申请原因。"
+        "content": "如需申请退款，请通过扩展的支持渠道或发送电子邮件至whoiszsm@qq.com联系我们。请附上您的购买信息和退款申请原因。"
       },
       "refund_processing": {
         "title": "3. 退款处理",
@@ -123,7 +123,7 @@
     }
   },
   "footer": {
-    "copyright": "© 2024 Cookie Control Center。保留所有权利。",
+    "copyright": "© 2025 CodeDigger.保留所有权利.",
     "privacy": "隐私政策",
     "terms": "服务条款"
   },
