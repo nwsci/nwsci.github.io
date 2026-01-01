@@ -329,6 +329,8 @@
   <script src="../../js/i18n.js"></script>
   <script src="../../js/main.js"></script>
   <script>
+    i18n.init();
+    
     function selectPlan(element) {
       document.querySelectorAll('.pricing-card').forEach(card => {
         card.classList.remove('selected');
