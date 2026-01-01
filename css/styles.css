@@ -180,9 +180,10 @@ img {
   visibility: hidden;
   transform: translateY(-10px);
   transition: var(--transition);
+  z-index: 100;
 }
 
-.language-switcher:hover .language-dropdown {
+.language-switcher.active .language-dropdown {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
