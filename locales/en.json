@@ -33,17 +33,6 @@
     "buy_now": "Buy Now",
     "recommended": "Recommended",
     "features_title": "Feature Comparison",
-    "export_formats": "Export Formats",
-    "import_formats": "Import Formats",
-    "encrypted_backup": "Encrypted Backup",
-    "http_simulation": "HTTP Request Simulation",
-    "api_requests": "Direct API Requests",
-    "custom_themes": "Custom Themes",
-    "dark_mode": "Dark Mode",
-    "sidebar_customization": "Sidebar Customization",
-    "keyboard_shortcuts": "Keyboard Shortcuts",
-    "ad_free": "Ad-Free Experience",
-    "site_management": "Site Management",
     "free": "Free",
     "basic": "Basic",
     "advanced": "Advanced",
@@ -65,8 +54,6 @@
       "site_limit_desc": "Maximum sites managed",
       "txt_csv": ".txt, .csv",
       "json_sqlite": "JSON, SQLite",
-      "yes": "Yes",
-      "no": "No",
       "free_sites": "10 sites",
       "pro_sites": "300 sites"
     }
@@ -74,7 +61,12 @@
   "terms": {
     "title": "Terms of Service",
     "last_updated": "Last updated: December 2024",
+    "privacy_title": "Privacy Policy",
+    "refund_title": "Refund Policy",
+    "back_to_home": "Back to Home",
+    "view_pricing": "View Pricing",
     "sections": {
+      "terms_of_service": "Terms of Service",
       "acceptance": {
         "title": "1. Acceptance of Terms",
         "content": "By downloading, installing, or using Cookie Control Center, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our software."
@@ -83,43 +75,52 @@
         "title": "2. License Grant",
         "content": "We grant you a limited, non-exclusive, revocable license to use our software for personal, non-commercial purposes in accordance with these terms."
       },
-      "privacy": {
-        "title": "3. Privacy Policy",
-        "content": "Your privacy is important to us. Cookie Control Center processes cookie data locally on your device. We do not collect, store, or transmit your personal data or cookie information to our servers. Any data you export remains on your device and is never shared with third parties without your explicit consent."
-      },
-      "data_collection": {
-        "title": "4. Data Collection",
-        "content": "We do not collect any personal information from users. The extension operates entirely locally. We may collect anonymous usage statistics to improve our product, but this data cannot be used to identify individual users."
-      },
-      "payments": {
-        "title": "5. Payments and Subscriptions",
-        "content": "Payments are processed securely through Paddle. Your payment information is never stored on our servers. Subscriptions can be canceled at any time through your Paddle account dashboard."
-      },
-      "refunds": {
-        "title": "6. Refund Policy",
-        "content": "We offer a 14-day money-back guarantee on all paid subscriptions. If you are not satisfied with your purchase, please contact us within 14 days of payment to request a refund. Refunds will be processed within 5-7 business days. No refunds will be given for subscriptions older than 14 days or for accounts that have violated our terms of service."
-      },
       "prohibited": {
-        "title": "7. Prohibited Use",
+        "title": "3. Prohibited Use",
         "content": "You agree not to: (a) reverse engineer or attempt to derive the source code of our software; (b) use our software for any illegal or unauthorized purpose; (c) interfere with or disrupt the operation of our software."
       },
       "disclaimer": {
-        "title": "8. Disclaimer",
+        "title": "4. Disclaimer",
         "content": "Our software is provided 'as is' without warranty of any kind. We are not responsible for any data loss, system damage, or other issues arising from the use of our software."
       },
       "changes": {
-        "title": "9. Changes to Terms",
+        "title": "5. Changes to Terms",
         "content": "We reserve the right to modify these terms at any time. Continued use of our software after any changes constitutes acceptance of the new terms."
       },
       "contact": {
-        "title": "10. Contact Us",
+        "title": "6. Contact Us",
         "content": "If you have any questions about these terms, please contact us through the extension's support channel."
+      },
+      "data_processing": {
+        "title": "1. Data Processing",
+        "content": "Your privacy is important to us. Cookie Control Center processes cookie data locally on your device. We do not collect, store, or transmit your personal data or cookie information to our servers. Any data you export remains on your device and is never shared with third parties without your explicit consent."
+      },
+      "data_collection": {
+        "title": "2. Data Collection",
+        "content": "We do not collect any personal information from users. The extension operates entirely locally. We may collect anonymous usage statistics to improve our product, but this data cannot be used to identify individual users."
+      },
+      "payment_security": {
+        "title": "3. Payment Security",
+        "content": "Payments are processed securely through Paddle. Your payment information is never stored on our servers. Subscriptions can be canceled at any time through your Paddle account dashboard."
+      },
+      "refund_eligibility": {
+        "title": "1. Refund Eligibility",
+        "content": "We offer a 14-day money-back guarantee on all paid subscriptions. If you are not satisfied with your purchase, please contact us within 14 days of payment to request a refund. Refunds will be processed within 5-7 business days. No refunds will be given for subscriptions older than 14 days or for accounts that have violated our terms of service."
+      },
+      "how_to_request": {
+        "title": "2. How to Request a Refund",
+        "content": "To request a refund, please contact our support team through the extension's support channel or email us at support@cookiecontrolcenter.com. Include your purchase information and reason for the refund request."
+      },
+      "refund_processing": {
+        "title": "3. Refund Processing",
+        "content": "Once your refund request is approved, the refund will be processed through Paddle to your original payment method. Processing time may vary depending on your payment provider."
+      },
+      "exceptions": {
+        "title": "4. Exceptions",
+        "content": "Refunds will not be provided in the following circumstances:",
+        "items_html": "<li>Subscription is older than 14 days from the date of purchase</li><li>User has violated the terms of service</li><li>User has requested chargeback through their payment provider</li><li>Subscription was gifted or transferred to another account</li>"
       }
-    },
-    "privacy_title": "Privacy Policy",
-    "refund_title": "Refund Policy",
-    "back_to_home": "Back to Home",
-    "view_pricing": "View Pricing"
+    }
   },
   "footer": {
     "copyright": "© 2024 Cookie Control Center. All rights reserved.",
